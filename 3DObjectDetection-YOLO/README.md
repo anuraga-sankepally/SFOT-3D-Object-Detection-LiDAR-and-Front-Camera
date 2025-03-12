@@ -8,11 +8,8 @@ In this project, you'll fuse measurements from LiDAR and camera and track vehicl
 
 The project consists of two major parts: 
 1. **Object detection**: In this part, a deep-learning approach is used to detect vehicles in LiDAR data based on a birds-eye view perspective of the 3D point-cloud. Also, a series of performance measures is used to evaluate the performance of the detection approach. 
-2. **Object tracking** : In this part, an extended Kalman filter is used to track vehicles over time, based on the lidar detections fused with camera detections. Data association and track management are implemented as well.
+2. **Object tracking** (coming up): In this part, an extended Kalman filter is used to track vehicles over time, based on the lidar detections fused with camera detections. Data association and track management are implemented as well.
 
-The following diagram contains an outline of the data flow and of the individual steps that make up the algorithm. 
-
-<img src="img/img_title_2_new.png"/>
 
 Also, the project code contains various tasks, which are detailed step-by-step in the code. More information on the algorithm and on the tasks can be found in the Udacity classroom. 
 
@@ -118,9 +115,6 @@ In case you do not include a specific step into the list, pre-computed binary fi
   - `show_detection_performance` displays the performance evaluation based on all detected 
   - `make_tracking_movie` renders an output movie of the object tracking results
 
-Even without solving any of the tasks, the project code can be executed. 
-
-The final project uses pre-computed lidar detections in order for all students to have the same input data. If you use the workspace, the data is prepared there already. Otherwise, [download the pre-computed lidar detections](https://drive.google.com/drive/folders/1IkqFGYTF6Fh_d8J3UjQOSNJ2V42UDZpO?usp=sharing) (~1 GB), unzip them and put them in the folder `results`.
 
 ## External Dependencies
 Parts of this project are based on the following repositories: 

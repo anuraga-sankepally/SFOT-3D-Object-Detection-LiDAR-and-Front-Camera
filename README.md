@@ -1,4 +1,4 @@
-# Sensor Fusion Exercises
+# 3D Object Detection and Tracking with Lidar and Front Camera
 
 This repo contains the code for demos, exercises, and exercise solutions.
 
